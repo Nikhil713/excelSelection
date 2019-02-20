@@ -18,13 +18,15 @@
           <div class = "bg-modal" >
             <div class = "modalContentSignup">
               <form class = "signupForm">
-                <input type = "text" placeholder = "Username"></input>
-                <input type = "text" placeholder = "Email"></input>
-                <input type = "password" placeholder = "Password"></input>
-                <input type = "password" placeholder = "Confirm Password"></input>
+                <input type = "text" placeholder = "Username" required></input>
+                <input type = "email" placeholder = "Email" required></input>
+                <input type = "password" placeholder = "Password" required></input>
+                <input type = "password" placeholder = "Confirm Password" required></input>
               </form>
               <button type = "submit" class ="loginButton" onclick="printData()">SignUp</button>
+              
               <script src="./index.js"></script>
+              
               <div class = "or"><hr />OR <hr /></div>
               <div>
                 <button class = "fb">
